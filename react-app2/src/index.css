@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+}
+
+nav {
+    background-color: #21222A;
+    display: flex;
+    align-items: center;
+    height: 90px;
+    padding: 30px 25px;
+}
+
+.nav--logo_text, .nav--title {
+    margin: 0;
+}
+
+.nav--logo_text {
+    margin-right: auto;
+    font-weight: 700;
+    color: #61DAFB;
+    font-size: 22px;
+}
+
+.nav--title {
+    color: #DEEBF8;
+    font-weight: 600;
+}
+
+.nav--logo {
+    height: 30px;
+    margin-right: 7px;
+}
+
+main {
+    background-color: #282D35;
+    padding: 57px 27px;
+    /* display: flex; */
+    /* height: 100vh;
+    width: 100vw; */
+    color: #ffffff;
+}
+
+.main--title {
+    margin: 0;
+    font-size: 39px;
+}
+
+.main--facts_list {
+    color: #61DAFB;
+    align-items: center;
+}
