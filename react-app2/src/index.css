@@ -5,6 +5,7 @@
 body {
     margin: 0;
     font-family: Inter, sans-serif;
+    background-color: #282D35;
 }
 
 nav {
@@ -37,20 +38,31 @@ nav {
 }
 
 main {
-    background-color: #282D35;
     padding: 57px 27px;
-    /* display: flex; */
-    /* height: 100vh;
-    width: 100vw; */
+    background-image: url('../images/Half\ react-logo.png');
+    background-repeat: no-repeat;
+    background-position: right 75%;
     color: #ffffff;
 }
 
 .main--title {
     margin: 0;
     font-size: 39px;
+    letter-spacing: -0.05em;
 }
 
 .main--facts_list {
-    color: #61DAFB;
-    align-items: center;
+    margin-top: 46px;
+    max-width: 400px;
 }
+
+.main--facts_list > li {
+    line-height: 19px;
+    padding-block: 10px;
+}
+
+.main--facts_list > li::marker {
+    font-size: 1.4rem;
+    color: #61DAFB;
+}
+
