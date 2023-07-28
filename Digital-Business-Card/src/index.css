@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: 'inter', sans-serif;
 }
 
 body {
@@ -9,17 +10,17 @@ body {
 
 .app--div {
   width: 317px;
+  height: 820px;
+  margin-top: 40px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   background-color: #1A1B21;
-  border-radius: 3%;
-  /* width: 50%; */
 }
 
 .info--div {
   width: 317px;
-  height: 500px;
+  height: 450px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -43,7 +44,7 @@ body {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 27px;
   line-height: 30px;
   text-align: center;
 }
@@ -62,6 +63,10 @@ body {
   text-align: center;
 
   color: #F3BF99;
+}
+
+.info--div > button {
+  margin-top: 10px;
 }
 
 .info--email_button {
@@ -118,8 +123,54 @@ body {
 
 .about--div {
   width: 247px;
-  height: 201px;
+  height: 150px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 40px;
+}
+
+.about--div > h1 {
+  font-size: 20px;
+}
+
+.about--div > p {
+  font-size: 13px;
+  font-weight: 100;
+  margin-top: -13px;
+}
+
+.interests--div {
+  width: 247px;
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+
+.interests--title {
+  font-size: 20px;
+}
+
+.interests--info {
+  font-size: 13px;
+  margin-top: -13px;
+}
+
+.footer--div {
+  background-color: #161619;
+  border-radius: 0px 0px 6px 6px;
+  height: 70px;
+  width: 317px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer--div > img {
+  height: 25px;
+  width: 25px;
+  margin: 13px;
 }
