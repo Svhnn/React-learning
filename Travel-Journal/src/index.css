@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    font-family: 'inter', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.navbar--nav {
+    background-color: #F55A5A;
+    display: inline-flex;
+    justify-content: center;
+    width: 100vw;
+    height: 70px;
+    padding: 0;
+}
+
+.navbar--globe {
+    height: 40px;
+    width: 40px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.navbar--title {
+    font-size: 25px;
+    font-weight: 100;
+    color: white;
+}
