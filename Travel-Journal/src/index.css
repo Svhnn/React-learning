@@ -5,6 +5,7 @@
 
 body {
     margin: 0;
+    width: 100vw;
 }
 
 .navbar--nav {
@@ -27,4 +28,60 @@ body {
     font-size: 25px;
     font-weight: 100;
     color: white;
+}
+
+.card--div {
+    display: inline-flex;
+    margin-left: 5vw;
+    margin-top: 70px;
+}
+
+.card--image {
+    display: flex;
+    float: left;
+    height: 300px;
+    max-width: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card--text_div {
+    margin-left: 40px;
+    margin-top: 15px;
+    display: flexbox;
+}
+
+.card--location_div {
+    display: flex; 
+    align-items: center;
+}
+
+.card--location_div > img {
+    margin-right: 4px;
+}
+
+.card--location_div > h3 {
+    letter-spacing: 3px;
+    font-weight: 10;
+    font-size: 13px;
+}
+
+.card--location_div > a {
+    margin-left: 20px;
+    color: #918E9B;
+}
+
+.card--text {
+    inline-size: 45vw;
+    overflow-wrap: break-word;
+}
+
+.card--hr {
+    margin-top: 30px;
+    margin-bottom: -20px;
+    
+    width: 90vw;
+    height: 0px;
+
+    border: 1px solid #F5F5F5;
 }
